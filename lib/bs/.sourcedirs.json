@@ -1,0 +1,1 @@
+{ "dirs" : [ "src" ] , "pkgs" : [ [ "bs-platform" , "/home/undozen/lab/maybe-bsb-bug/node_modules/bs-platform" ] , [ "reason-react" , "/home/undozen/lab/maybe-bsb-bug/node_modules/reason-react" ] ] , "generated" : [] }

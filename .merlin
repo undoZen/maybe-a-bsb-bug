@@ -1,0 +1,10 @@
+####{BSB GENERATED: NO EDIT
+FLG -ppx '/home/undozen/lab/maybe-bsb-bug/node_modules/bs-platform/linux/bsc.exe -as-ppx -bs-jsx 3'
+S /home/undozen/lab/maybe-bsb-bug/node_modules/bs-platform/lib/ocaml
+B /home/undozen/lab/maybe-bsb-bug/node_modules/bs-platform/lib/ocaml
+FLG -w +a-4-9-20-40-41-42-50-61-102
+S /home/undozen/lab/maybe-bsb-bug/node_modules/reason-react/lib/ocaml
+B /home/undozen/lab/maybe-bsb-bug/node_modules/reason-react/lib/ocaml
+S src
+B lib/bs/src
+####BSB GENERATED: NO EDIT}

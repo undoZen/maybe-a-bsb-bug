@@ -1,0 +1,29 @@
+{
+  "name": "rescript-vite-antd",
+  "version": "0.0.0",
+  "scripts": {
+    "dev-watch": "run-p build-watch-res dev-vite",
+    "dev": "run-s clean-res build-res dev-watch",
+    "dev-vite": "vite",
+    "build-vite": "vite build",
+    "build-tsc": "tsc",
+    "build-res": "bsb -make-world",
+    "clean-res": "bsb -clean-world",
+    "build-watch-res": "bsb -make-world -w"
+  },
+  "dependencies": {
+    "@pika/react": "^16.13.1",
+    "@pika/react-dom": "^16.13.1",
+    "antd": "^4.5.4",
+    "reason-react": "^0.9.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "bs-platform": "^8.2.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^3.9.3",
+    "vite": "^1.0.0-rc.4",
+    "vite-plugin-react": "^3.0.0"
+  }
+}
